@@ -33,4 +33,8 @@
 - `varname = 10` then `echo $varname` to display the variable
 - `env` to check environment variable (prints envs)
 - `export key = value` is creating a env var (`export name = James`)
-- 
+- **Persistent Env Var**
+- `sudo nano .profile` to edit profile
+- add `export KEY=value` to bottom of file
+- logout
+- `vagrant ssh` again to see changes
